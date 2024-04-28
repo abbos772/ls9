@@ -1,0 +1,274 @@
+.main_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.food {
+  width: 170px;
+  height: 60px;
+  box-sizing: border-box;
+  border: 1.5px solid rgb(220, 120, 11);
+  border-radius: 5px;
+  color: rgb(220, 120, 11);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0%;
+  cursor: pointer;
+  background: 0;
+  transition: 0.5s;
+  opacity: 0.8;
+}
+.food:hover {
+  background: rgb(220, 120, 11);
+  color: white;
+}
+.btns {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.main_text h1 {
+  color: rgb(21, 12, 1);
+  font-family: Philosopher;
+  font-size: 48.83px;
+  font-weight: 700;
+  line-height: 57.6px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.main_text p {
+  color: rgb(21, 12, 1);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.main_text {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+.with {
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  flex-direction: column;
+}
+.with_top h4 {
+  color: rgb(220, 120, 11);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 20%;
+  text-align: center;
+  text-transform: uppercase;
+}
+.with_top h1 {
+  color: rgb(21, 12, 1);
+  font-family: Philosopher;
+  font-size: 31.25px;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+}
+.with_top {
+  margin: 20px;
+}
+.with_cards {
+  display: flex;
+  gap: 150px;
+  flex-wrap: wrap;
+}
+.with_card {
+  width: 300px;
+  height: 228px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+.with_card h4 {
+  color: rgb(21, 12, 1);
+  font-family: Philosopher;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.with_card p {
+  color: rgb(21, 12, 1);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.with_box {
+  width: 88px;
+  height: 88px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.main_girl {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 100px;
+  flex-wrap: wrap;
+}
+.main_girl_text h5 {
+  color: rgb(220, 120, 11);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 20%;
+  text-align: left;
+  text-transform: uppercase;
+}
+.main_girl_text h1 {
+  color: rgb(21, 12, 1);
+  font-family: Philosopher;
+  font-size: 31.25px;
+  font-weight: 700;
+  line-height: 40.63px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.main_girl_text p {
+  color: rgb(21, 12, 1);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.main_girl_text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.menu_flex {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.menu_text h4 {
+  color: rgb(220, 120, 11);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 20%;
+  text-align: center;
+  text-transform: uppercase;
+}
+.menu_text h1 {
+  color: rgb(21, 12, 1);
+  font-family: Philosopher;
+  font-size: 31.25px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+.menu_text p {
+  color: rgb(21, 12, 1);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.menu_text p {
+  line-height: 1.5;
+}
+.menu_text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.more_texts {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 15px;
+  padding-top: 73px;
+}
+.more_texts p {
+  color: rgb(0, 0, 0);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.more_texts h4 {
+  color: rgb(0, 0, 0);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+}
+.more_texts h5 {
+  color: rgb(0, 0, 0);
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
+}
+@media (max-width: 768px) {
+  .rasm_g {
+    width: 400px;
+  }
+  .cs {
+    width: 400px;
+  }
+  #search {
+    width: 300px;
+  }
+  .inp {
+    width: 300px;
+  }
+  .with_cards {
+    align-items: center;
+    justify-content: center;
+  }
+  .main_text h1 {
+    font-size: 30px;
+  }
+  .main_text p {
+    font-size: 14px;
+    text-align: center;
+  }
+  .main_text {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+}

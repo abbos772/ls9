@@ -1,0 +1,113 @@
+.footer_top {
+  background: rgb(247, 232, 215);
+  padding: 70px;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+  margin-top: 100px;
+}
+.footer_top p {
+  color: rgb(220, 120, 11);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 20%;
+  text-align: center;
+  text-transform: uppercase;
+}
+.footer_top h1 {
+  color: rgb(21, 12, 1);
+  font-family: Philosopher;
+  font-size: 31.25px;
+  font-weight: 700;
+  line-height: 40.6px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.inp {
+  width: 750px;
+  height: 75px;
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: row-reverse;
+}
+.send {
+  width: 156px;
+  height: 75px;
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 40.6px;
+  letter-spacing: 0%;
+  text-align: center;
+  border: 0;
+  cursor: pointer;
+
+  background: rgb(220, 120, 11);
+}
+#search {
+  width: 600px;
+  padding: 20px;
+  outline: none;
+  border: 0;
+}
+.foot {
+  background: rgb(37, 37, 37);
+  padding: 50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.foot_flex {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.foot1 p {
+  color: rgb(222, 221, 221);
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 1400;
+  line-height: 16px;
+  letter-spacing: 0%;
+  text-align: left;
+  cursor: pointer;
+}
+.foot1 h3 {
+  color: rgb(255, 255, 255);
+  font-family: Philosopher;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+  cursor: pointer;
+}
+.foot1 {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+@media (max-width: 768px) {
+  .rasm_g {
+    width: 400px;
+  }
+  .cs {
+    width: 400px;
+  }
+  #search {
+    width: 300px;
+  }
+  .inp {
+    width: 350px;
+  }
+}

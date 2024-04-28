@@ -1,0 +1,64 @@
+.menu {
+  width: 360px;
+  height: 446px;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 75px 10px 10px 10px;
+  background: rgb(255, 255, 255);
+}
+.menus {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 70px;
+}
+
+.menu_text {
+  padding: 30px;
+}
+.menu_img {
+  height: 200px;
+  object-fit: contain;
+}
+.rasm {
+  height: 180px;
+  padding-top: 30px;
+}
+.text_price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.text_price h3 {
+  color: rgb(21, 12, 1);
+  font-family: Philosopher;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.pp {
+  display: flex;
+  justify-content: center;
+}
+.plus_card {
+  width: 36px;
+  height: 34px;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-top: 15px;
+  font-size: 20px;
+  background: rgb(220, 120, 11);
+}
+.plus {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
